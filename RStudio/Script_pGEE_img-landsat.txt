@@ -1,0 +1,8 @@
+var landsat5_11 = ee.ImageCollection("LANDSAT/LT05/C01/T1_TOA")
+    .filterDate('2011-09-01', '2011-10-31')
+    .filterBounds(Area)
+    .filterMetadata('CLOUD_COVER','less_than', 10);
+
+var landsat5_11_export = landsat5_11.median();
+
+Map.addLayer(landsat5_11_export,imageVisParam,"2011");

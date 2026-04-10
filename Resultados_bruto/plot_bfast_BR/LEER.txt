@@ -1,0 +1,6 @@
+Plot de grafico del Bfast para los disturbios mas evidentes
+
+NOTA:
+Salvo P75 que hubo un error en la correspondencia entre los graficos de bfast
+y la toma de la fecha de ruptura en el proceso de automatizacion de bfast a todas
+las parcelas.
